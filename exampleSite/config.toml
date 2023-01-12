@@ -1,12 +1,24 @@
 baseURL = "https://example.com"
-languageCode = "en-us"
-title = "Example YinYong Blog"
-theme = "yinyang"
+languageCode = 'en-gb'
+title = "Example Yinante Blog"
+theme = "yinante"
 DefaultContentLanguage = "en"
+paginate = 5
+summaryLength = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
 
 [author]
-  name = "Joway Wang"
-  homepage = "https://joway.io/"
+  name = "Simon Bowie"
+  homepage = "https://simonxix.com/"
 
 [languages]
   [languages.en]
@@ -19,14 +31,27 @@ DefaultContentLanguage = "en"
     weight = 1
 
 [params]
+mainSections = ["posts"]
+headTitle = "Example Yinante Blog"
+description = 'example'
+footer = 'This website is © 2023 ... and is licensed under a ... license.'
 disqus = "joway" # disqus account name
 extraHead = ''
-mainSections = ["posts"]
 
-[[params.socials]]
+[[params.links]]
+name = "About"
+link = "/about"
+
+[[params.links]]
 name = "RSS"
 link = "/index.xml"
+new_tab = true
 
-[[params.socials]]
-name = "About"
-link = "https://joway.io"
+[[params.links]]
+name = "SimonXIX"
+link = "https://simonxix.com"
+new_tab = true
+
+postHeaderContent = ""
+# extraCSSFiles = ["css/foo.css", "css/bar.css"]
+extraCSSFiles = []

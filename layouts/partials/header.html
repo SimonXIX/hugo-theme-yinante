@@ -8,9 +8,13 @@
   <div class="header-subtitle">{{ .Site.Params.Description }}</div>
 </header>
 <div class="row end-md center-xs header-items">
-  {{ range .Site.Params.socials }}
+  {{ range .Site.Params.links }}
   <div class="header-item">
-    <a href="{{ .link }}" target="_blank">{{ .name }}</a>
+    <a href="{{ .link }}"
+      {{ if .new_tab }} target="_blank" {{end}}
+    >
+      {{ .name }}
+    </a>
   </div>
   {{ end }}
 </div>
