@@ -1,8 +1,8 @@
-name = "Yinyang"
+name = "Yinante"
 license = "MIT"
-licenselink = "https://github.com/joway/hugo-theme-yinyang/blob/master/LICENSE"
-description = "Yinyang theme for Hugo."
-homepage = "https://github.com/joway/hugo-theme-yinyang"
+licenselink = "https://github.com/SimonXIX/hugo-theme-yinante/blob/main/LICENSE.md"
+description = "Yinante theme for Hugo."
+homepage = "https://github.com/SimonXIX/hugo-theme-yinante"
 tags = [
   "blog",
   "minimal",
@@ -21,5 +21,5 @@ staticPrefix = ""
 extraCSSFiles = []
 
 [author]
-  name = "Joway Wang"
-  homepage = "https://joway.io"
+  name = "Simon Bowie"
+  homepage = "https://simonxix.com"
