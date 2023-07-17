@@ -314,3 +314,22 @@ a:hover {
   float: right;
   clear: both;
 }
+
+/* categories */
+
+#categories-cloud {
+  text-align: center;
+  margin-top: 0.83em;
+  line-height: 80px;
+  font-size: 3rem;
+}
+
+#categories-cloud a {
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+#categories-cloud a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
