@@ -11,9 +11,9 @@
         </div>
 
         <div id="categories-cloud" class="post-content markdown-body">
-          {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages | shuffle }}
-            <a href="{{.Permalink}}">{{.Title}}</a></li>
-          {{end}}
+          {{ range .Data.Terms.Alphabetical | shuffle }}
+            <a href="{{.Page.Permalink}}">{{.Page.Title}} <i>({{ .Count }})</i></a>
+          {{ end }}
         </div>
 
         {{ partial "footer.html" . }}
