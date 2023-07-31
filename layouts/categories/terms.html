@@ -12,7 +12,7 @@
 
         <div id="categories-cloud" class="post-content markdown-body">
           {{ range .Data.Terms.Alphabetical | shuffle }}
-            <a href="{{.Page.Permalink}}">{{.Page.Title}} <i>({{ .Count }})</i></a>
+            <a href="/categories/{{ lower .Page.Title }}/">{{.Page.Title}} <i>({{ .Count }})</i></a>
           {{ end }}
         </div>
 
