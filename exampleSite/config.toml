@@ -35,6 +35,7 @@ mainSections = ["posts"]
 headTitle = "Example Yinante Blog"
 description = 'example'
 footer = 'This website is © 2023 ... and is licensed under a ... license.'
+count = 
 disqus = "joway" # disqus account name
 extraHead = ''
 

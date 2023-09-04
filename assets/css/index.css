@@ -97,11 +97,15 @@ a:hover {
 }
 
 .header-items {
-  margin: 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .header-item {
   margin: 0 5px;
+}
+
+.header-count {
+  padding-right: 5px;
 }
 
 .header-line {
